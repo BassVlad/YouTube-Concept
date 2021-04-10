@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+.header{
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    border-bottom: 20px;
+    padding-left: 32px;
+    padding-right: 70px;
+    margin-bottom: 30px;
+    
+}
+.menu-button{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 20px;
+    height: 17px;
+    border: none;
+    margin-right: 28px;
+    cursor: pointer;
+}
+.menu-line{
+    display: block;
+    background: #1f2022;
+    width: 20px;
+    height: 3px;
+    border-radius: 20px;
+}
+.input-group{
+    border-radius: 22px;
+    display: flex;
+    background: #EBEBEB;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 17px;
+    max-width: 830px;
+    width: 50%;
+
+}
+.logo{
+    margin-right: 59px;
+}
+.input-search{
+    width: 100%;
+    border:none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: transparent;
+}
+.button-search{
+    cursor: pointer;
+    padding: 0;
+    width: 19px;
+    height: 19px;
+    border:none;
+    background-color: transparent;
+}
+.icon-search{
+    fill: #000;
+}
+
+.icons-link{
+    text-decoration: none;
+    opacity: 0.24;
+}
+.icons-link:hover{
+    opacity: 0.7;
+}
+.icons-link:not(:last-child)
+{
+    margin-right: 50px;
+}
+.user{
+    margin-left: 45px;
+}
+.user-avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+}
+.menu-icons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+.sidebar{
+    margin-left: 32px;
+}
+.nav-menu{
+    margin-top: 0;
+    margin-bottom: 60px;
+    padding-left: 0;
+    list-style: none;
+}
+.nav-item{
+    margin-bottom: 28px;
+    color:#8989;
+}
+.nav-link{
+    
+    display: flex;
+    align-items: center;
+    color:#8989;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: red;
+    
+}
+.nav-link:hover .icon{
+    fill:red;
+    
+}
+.nav-item .icon{
+    fill: #8989;
+}
+.nav-text{
+    margin-left: 13px;
+    
+}
+.nav-img{
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+}
+.nav-title{
+ font-weight: bold;
+ font-size: 18px;
+ line-height: 23px;
+ margin-bottom: 30px;
+}
