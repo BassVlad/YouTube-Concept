@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Noto+Sans+JP&family=Roboto&display=swap" rel="stylesheet">
     <link rel="styleshhet" href="css/normalize.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="img/youtube.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/morewidth.css">
+    <!--container-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main1.js"></script>
+    <link rel="shortcut icon" href="img/youtube-1.png" type="image/x-icon">
 </head>
 <body>
-    <header class="header">
+  
+    <header class="header" >
         <button class="menu-button">
             <span class="menu-line"></span>
             <span class="menu-line"></span>
@@ -23,10 +30,15 @@
     <div class="input-group">
         <input type="search"  name="search" class="input-search" placeholder="search">
         <button type="submit" class="button-search">
-              <svg class="icon icon-search"width="19" height="19">
+              <svg class="icons icon-search"width="19" height="19">
                 <use xlink:href="img/icons.svg#search"></use>
               </svg>
         </button>
+    </div>
+    <div class="mobile-search">
+      <svg class="icons icon-search"width="19" height="19">
+        <use xlink:href="img/icons.svg#search"></use>
+      </svg>
     </div>
     <div class="menu-icons">
         <a href="#" class="icons-link">
@@ -50,14 +62,51 @@
         </a>
         <!--/.user-->
     </header>
+    <div class="mobile-sidebar">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icons icon-HomIcon" width="20" height="19">
+              <use href="img/icons.svg#HomIcon"></use>
+            </svg>
+            <span class="nav-text">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icons icon-TIcon" width="20" height="19">
+              <use href="img/icons.svg#TIcon"></use>
+            </svg>
+            <span class="nav-text">Trending</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icons icon-SIcon" width="20" height="19">
+              <use href="img/icons.svg#SIcon"></use>
+            </svg>
+            <span class="nav-text">Subscriptions</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">
+            <svg class="icons icon-LIcon" width="20" height="19">
+              <use href="img/icons.svg#LIcon"></use>
+            </svg>
+            <span class="nav-text">Library</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.mobile-sidebar -->
     <div class="container">
       <aside class="sidebar">
         <nav class="nav">
           <ul class="nav-menu">
             <li class="nav-item">
               <a href="#" class="nav-link">
-                <svg class="icon icon-HIcon" width="20" height="19" >
-                  <use xlink:href="img/icons.svg#HIcon"></use>
+                <svg class="icon icon-HomIcon" width="20" height="19" >
+                  <use xlink:href="img/icons.svg#HomIcon"></use>
                 </svg>
                 <span class="nav-text">Home</span>
               </a>
@@ -149,37 +198,37 @@
               <h2 class="nav-title">Subscraptions</h2>
               <ul class="nav-menu">
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="https://www.youtube.com/user/EminemMusic" class="nav-link">
                     <img  src="img/Eminem.png" alt="EminemMusic" class="nav-img">
                     <span class="nav-text">EminemMusic</span>
                   </a>
                   </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="https://www.youtube.com/user/ikakProsto" class="nav-link">
                     <img  src="img/IKakProsto.png" alt="Ай, Как Просто!" class="nav-img">
                     <span class="nav-text">Ай, Как Просто!</span>
                   </a>
                   </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="https://www.youtube.com/user/westfesttv" class="nav-link">
                     <img  src="img/SnoopDogg.png" alt="SnoopDoggTV" class="nav-img">
                     <span class="nav-text">SnoopDoggTV </span>
                   </a>
                   </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="https://www.youtube.com/user/windy31LetsGoodPlays" class="nav-link">
                     <img  src="img/Windy.png" alt="windy31" class="nav-img">
                     <span class="nav-text">windy31</span>
                   </a>
                   </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="https://www.youtube.com/channel/UCZOINootuIq8tmgEY5Znj0g" class="nav-link">
                     <img  src="img/Raspakovka2Pakovka.png" alt="РасПаковка ДваПаковка" class="nav-img">
                     <span class="nav-text">РасПаковка ДваПаковка</span>
                   </a>
                   </li>
                 <li class="nav-item">
-                  <a href="#" class="nav-link">
+                  <a href="https://www.youtube.com/channel/UCY03gpyR__MuJtBpoSyIGnw" class="nav-link">
                     <img  src="img/Droider.png" alt="Droider.Ru" class="nav-img">
                     <span class="nav-text">Droider.Ru</span>
                   </a>
@@ -189,36 +238,38 @@
           </ul>
 
 
-          <ul class="nav-menu">
-            <li class="nav-item">
-              <a href="#" class="nav-link">
-                <svg class="icon icon-STIcon" width="20" height="19" >
-                  <use xlink:href="img/icons.svg#STIcon"></use>
-                </svg>
-                <span class="nav-text">Setting</span>
-              </a>
-            </li>
-            </ul>
-      </aside>
-    </div>
+            <ul class="nav-menu">
+              <li class="nav-item">
+                <a href="#" class="nav-link">
+                  <svg class="icon icon-STIcon" width="20" height="19" >
+                    <use xlink:href="img/icons.svg#STIcon"></use>
+                  </svg>
+                  <span class="nav-text">Setting</span>
+                </a>
+              </li>
+              </ul>
+        </aside>
+       </div>
 
 
       <main class="content">
         <div class="channel">
-            <a href="#" class="channel-title">
-              <img src="img/Eminem.png" alt="EminemMusic" class="channel-avatar">
-              <span class="channel-text">EminemMusic</span>
-            </a>
-            <!-- If we need navigation buttons -->
-            <div class="slider-buttons">
-              <div class="channel-button " id="button-next"><svg class="icon Left" width="28" height="28" >
-                <use xlink:href="img/icons.svg#Left"></use>
-              </svg>
-            </div>
-           <div class="channel-button "id="button-prev"><svg class="icon Right" width="28" height="28" >
-                <use xlink:href="img/icons.svg#Right"></use>
-              </svg>
-            </div>
+            <div class="channel-header">
+              <a href="#" class="channel-title">
+                <img src="img/Eminem.png" alt="EminemMusic" class="channel-avatar">
+                <span class="channel-text">EminemMusic</span>
+              </a>
+              <!-- If we need navigation buttons -->
+              <div class="slider-buttons">
+                <div class="channel-button " id="button-next"><svg class="icon Left" width="28" height="28" >
+                  <use xlink:href="img/icons.svg#Left"></use>
+                </svg>
+              </div>
+             <div class="channel-button "id="button-prev"><svg class="icon Right" width="28" height="28" >
+                  <use xlink:href="img/icons.svg#Right"></use>
+                </svg>
+              </div>
+              </div>
             </div>
             <!-- Slider main container -->
             <div class="swiper-container my-channel-slider">
@@ -229,7 +280,7 @@
                   <div class="video-card">
                     <div class="video-thumb">
                         
-                          <img src="img/ToneDeaf Eminem.jpg" class="thumbnail" >
+                          <img src="img/ToneDeaff.jpg" class="thumbnail" >
                         
                          <span class="video-duration">5:02</span>
                          </div>
@@ -349,13 +400,13 @@
             
               <div class="channel recommended" >
             <div class="channel-header">
-              <a href="#" class="channel-title">
+              <a href="https://www.youtube.com/user/ikakProsto" class="channel-title">
                 <img src="img/IKakProsto.png" alt="IKakProsto" class="channel-avatar">
                 <span class="channel-text">Ай, Как Просто!</span>
                 <span class="rec-channel-subtitle"> Recommended for you</span>
               </a>
-              <button class="Subscribe">Subscribe 1,07m</button>
-              <div class="sliders-buttons">
+              <button id="button2" class="subscribe">Subscribe 1,07m</button>
+              <div class="slider-buttons">
                 <div class="channel-button " id="rec-button-next"><svg class="icon Left" width="28" height="28" >
                   <use xlink:href="img/icons.svg#Left"></use>
                 </svg>
@@ -424,7 +475,7 @@
                      <img src="img/Синергия.jpg" alt=""
                       onmouseout="this.src='img/Синергия.jpg'" 
                       onmouseover="this.src='img/AMD + NVIDIA+ASUS - вы себе и представить не можете....webp'" class="thumbnail">
-                       <span class="video-duration">5:24</span>
+                       <span class="video-duration">18:18</span>
                        </div>
                        <h3 class="video-title">AMD + NVIDIA+ASUS - вы себе и представить не можете...</h3>
                         <div class="video-info">
@@ -502,17 +553,20 @@
             </div>
             <div class="channel recommended-video" >
               
-                <h2 class="video-channel-subtitle"> Recommended videos for you</h2>
+                
               
-              <div class="slider-buttons">
-                <div class="channel-button " id="video-button-next"><svg class="icon Left" width="28" height="28" >
-                  <use xlink:href="img/icons.svg#Left"></use>
-                </svg>
-              </div>
-             <div class="channel-button "id="video-button-prev"><svg class="icon Right" width="28" height="28" >
-                  <use xlink:href="img/icons.svg#Right"></use>
-                </svg>
-              </div>
+              <div class="channel-header">
+                <h2 class="video-channel-subtitle"> Recommended videos for you</h2>
+                <div class="slider-buttons">
+                  <div class="channel-button " id="video-button-next"><svg class="icon Left" width="28" height="28" >
+                    <use xlink:href="img/icons.svg#Left"></use>
+                  </svg>
+                </div>
+               <div class="channel-button "id="video-button-prev"><svg class="icon Right" width="28" height="28" >
+                    <use xlink:href="img/icons.svg#Right"></use>
+                  </svg>
+                </div>
+                </div>
               </div>
               <!-- Slider main container -->
             <div class="swiper-container video-channel-slider">
@@ -654,31 +708,203 @@
             
               
               
-               
-            
+               <!--PhoneVerison-->
+            <div class="mobile-channel">
+              <a href="#" class="mobile-channel-title">
+                <img src="img/Eminem.png" alt="EminemMusic" class="channel-avatar">
+                <span class="mobile-channel-text">EminemMusic</span>
+              </a>
+
+              <!-- Slider main container -->
+              <div class="mobile-swiper-container my-mobile-channel-slider">
+                <!-- Additional required wrapper -->
+                <div class="mobile-swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="mobile-swiper-slide">
+                    <div class="mobile-video-card">
+                      <div class="mobile-video-thumb">
+                          
+                            <img src="img/ToneDeaff.jpg" class="mobile-thumbnail" >
+                          
+                           <span class="video-duration">5:02</span>
+                           </div>
+                           <h3 class="video-title">Eminem - Tone Deaf (Lyric Video)</h3>
+                            <div class="video-info">
+                            <span class="video-counter">
+                             <span class="video-views">9,3 млн просмотров</span>
+                             <span class="video-date">1 месяц назад</span>
+                           </span>
+                           <span class="video-channel">EminemMusic</span>
+                       </div>
+                     </div>
+                  </div>
+  
+                  <div class="mobile-swiper-slide">
+                    <div class="mobile-video-card">
+                    <div class="mobile-video-thumb">
+                      <img src="img/GODZILLAOUT.jpg" alt=""
+                      onmouseout="this.src='img/GODZILLAOUT.jpg'"
+                      onmouseover="this.src='img/Godzilla.jpg'" class="mobile-thumbnail">&nbsp;
+                     <img src="img/GODZILLAOUT.jpg" alt=""
+                      onmouseout="this.src='img/GODZILLAOUT.jpg'" 
+                      onmouseover="this.src='img/Godzilla.jpg'" class="mobile-thumbnail">
+                         <span class="video-duration">4:27</span>
+                         </div>
+                         <h3 class="video-title">Eminem - Godzilla ft. Juice WRLD (Directed by Cole Bennett))</h3>
+                          <div class="video-info">
+                          <span class="video-counter">
+                           <span class="video-views">350 млн просмотров</span>
+                           <span class="video-date">1 год назад</span>
+                         </span>
+                         <span class="video-channel">EminemMusic</span>
+                     </div>
+                   </div>
+                  </div>
+                 
+            </dvi>
+  
+              
+                <div class="mobile-rec-channel recommended" >
+              <div class="mobile-channel-header">
+                <a href="https://www.youtube.com/user/ikakProsto" class="channel-title">
+                  <img src="img/IKakProsto.png" alt="IKakProsto" class="channel-avatar">
+                  <span class="channel-text">Ай, Как Просто!</span>
+                  <span class="rec-channel-subtitle"> Recommended for you</span>
+                </a>
+                <button class="subscribe">Subscribe 1,07m</button>
+                <div class="slider-buttons">
+                  <div class="channel-button " id="rec-button-next"><svg class="icon Left" width="28" height="28" >
+                    <use xlink:href="img/icons.svg#Left"></use>
+                  </svg>
+                </div>
+               <div class="channel-button "id="rec-button-prev"><svg class="icon Right" width="28" height="28" >
+                    <use xlink:href="img/icons.svg#Right"></use>
+                  </svg>
+                </div>
+                </div>
+              </div>
+                <!-- Slider main container -->
+              <div class="mobile-swiper-container mobile-rec-channel-slider'">
+                <!-- Additional required wrapper -->
+                <div class="mobile-swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="mobile-swiper-slide">
+                    <div class="mobile-video-card">
+                      <div class="mobile-video-thumb">
+                          
+                        <img src="img/РеволюцияOut.jpg" alt=""
+                        onmouseout="this.src='img/РеволюцияOut.jpg'"
+                        onmouseover="this.src='img/iPhone 13 не нужен – революция, которую ты пропустил!.png'" class="mobile-thumbnail">&nbsp;
+                       <img src="img/РеволюцияOut.jpg.jpg" alt=""
+                        onmouseout="this.src='img/РеволюцияOut.jpg'" 
+                        onmouseover="this.src='img/iPhone 13 не нужен – революция, которую ты пропустил!.png'" class="mobile-thumbnail">
+                          
+                           <span class="video-duration">7:28</span>
+                           </div>
+                           <h3 class="video-title">iPhone 13 не нужен – революция, которую ты пропустил!</h3>
+                            <div class="video-info">
+                            <span class="video-counter">
+                             <span class="video-views">139 тыс. просмотров</span>
+                             <span class="video-date">2 дня назад</span>
+                           </span>
+                           <span class="video-channel">Ай, Как Просто!</span>
+                       </div>
+                     </div>
+                  </div>
+  
+                  <div class="mobile-swiper-slide">
+                    <div class="mobile-video-card">
+                    <div class="mobile-video-thumb">
+                      <img src="img/Хана.jpg" alt=""
+                      onmouseout="this.src='img/Хана.jpg'"
+                      onmouseover="this.src='img/Хана.webp'" class="mobile-thumbnail">&nbsp;
+                     <img src="img/Хана.jpg" alt=""
+                      onmouseout="this.src='img/Хана.jpg'" 
+                      onmouseover="this.src='img/Хана.webp'" class="mobile-thumbnail">
+                         <span class="video-duration">6:10</span>
+                         </div>
+                         <h3 class="video-title">ВСЕМ ХАНА – iPHONE SE 3 и SE 3 PLUS!</h3>
+                          <div class="video-info">
+                          <span class="video-counter">
+                           <span class="video-views">126 тыс. просмотров</span>
+                           <span class="video-date">1 день назад</span>
+                         </span>
+                         <span class="video-channel">Ай, Как Просто!</span>
+                     </div>
+                   </div>
+                  </div>
+                
+              </div>
+              <div class="mobile-rec-video-channel recommended-video" >
+                
+                  <h2 class="video-channel-subtitle"> Recommended videos for you</h2>
+                
+                <div class="slider-buttons">
+                  <div class="channel-button " id="video-button-next"><svg class="icon Left" width="28" height="28" >
+                    <use xlink:href="img/icons.svg#Left"></use>
+                  </svg>
+                </div>
+               <div class="channel-button "id="video-button-prev"><svg class="icon Right" width="28" height="28" >
+                    <use xlink:href="img/icons.svg#Right"></use>
+                  </svg>
+                </div>
+                </div>
+                <!-- Slider main container -->
+              <div class="mobile-swiper-container mobile-video-channel-slider">
+                <!-- Additional required wrapper -->
+                <div class="mobile-swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="mobile-swiper-slide">
+                    <div class="mobile-video-card">
+                      <div class="mobile-video-thumb">
+                          
+                        <img src="img/Prestigo43.jpg" alt=""
+                        onmouseout="this.src='img/Prestigo43.jpg'"
+                        onmouseover="this.src='img/Prestigo43.webp'" class="mobile-thumbnail">&nbsp;
+                       <img src="img/Prestigo43.jpg" alt=""
+                        onmouseout="this.src='img/Prestigo43.jpg'" 
+                        onmouseover="this.src='img/Prestigo43.webp'" class="mobile-thumbnail">
+                          
+                           <span class="video-duration">4:50</span>
+                           </div>
+                           <h3 class="video-title">iНаша сборка — TV Prestigio 43 Top!</h3>
+                            <div class="video-info">
+                            <span class="video-counter">
+                             <span class="video-views">4 461 просмотр</span>
+                             <span class="video-date">10 апр. 2021 г</span>
+                           </span>
+                           <span class="video-channel">Не шарю!</span>
+                       </div>
+                     </div>
+                  </div>
+  
+                  <div class="mobile-swiper-slide">
+                    <div class="mobile-video-card">
+                    <div class="mobile-video-thumb">
+                      <img src="img/2factoryout.jpg" alt=""
+                      onmouseout="this.src='img/2factoryout.jpg'"
+                      onmouseover="this.src='img/2FACTOREOUT.webp'" class="mobile-thumbnail">&nbsp;
+                     <img src="img/2factoryout.jpg" alt=""
+                      onmouseout="this.src='img/2FACTOREOUT.webp'" 
+                      onmouseover="this.src='img/2factoryout.jpg'" class="mobile-thumbnail">
+                         <span class="video-duration">8:39</span>
+                         </div>
+                         <h3 class="video-title">Зачем нужна двухфакторная аутентификация? | РАЗБОР</h3>
+                          <div class="video-info">
+                          <span class="video-counter">
+                           <span class="video-views">2 190 просмотров</span>
+                           <span class="video-date">10 апр. 2021 г</span>
+                         </span>
+                         <span class="video-channel">Droider.Ru</span>
+                     </div>
+                   </div>
+                  </div>
+      
+              </div>
                      
 
       </main>
     
-    <!--container-->
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="js/main.js"></script>
+    
 </body>
 </html>
-<!-- <div class="swiper-slide">
-                  <div class="video-cardrec">
-                   <div class="video-thumbrec">
-                    <img src="img/РеволюцияOut.jpg" alt=""
-                    onmouseout="this.src='img/РеволюцияOut.jpg'"
-                    onmouseover="this.src='img/iPhone 13 не нужен – революция, которую ты пропустил!.png'" class="thumbnailrec">&nbsp;
-         
-                       <span class="video-duration">7:28</span>
-                       </div>
-                       <h3 class="video-title">iPhone 13 не нужен – революция, которую ты пропустил!</h3>
-                        <div class="video-info">
-                        <span class="video-counter">
-                         <span class="video-views">139 тыс. просмотров</span>
-                         <span class="video-date">2 дня назад</span>
-                       </span>
-                       <span class="video-channel">Ай, Как Просто!</span>
-                   </div>-->

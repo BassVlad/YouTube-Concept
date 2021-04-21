@@ -1,0 +1,23 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:whitesmoke;
+    margin:0;
+    background-image: url(img/WhiteBCForReg.jpg);
+}
+h1{
+    
+    cursor:help;
+    margin:0;
+    text-transform: appearance;
+    padding-bottom: 5px;
+    border-bottom:3px solid darkblue;
+}
+form{
+   
+    margin:0 auto;
+    background-color:whitesmoke;
+    width: 450px;
+    height: 500px;
+    padding: 20px;
+    box-shadow: 2px 5px 5px 5px lightgray ;
+}
