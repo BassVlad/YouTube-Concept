@@ -1,0 +1,20 @@
+@media (min-width:3000px) and (max-width: 8000px) {
+    .video-thumb{
+        width: 450px;
+        height: 250px;
+        overflow:hidden;
+        position: relative;
+    }
+    .thumbnail{
+        width: 450px;
+        height: 250px;
+        object-fit: cover;
+        cursor: pointer;
+        
+    }
+    .video-card{
+        width:250px;
+    }
+   
+   
+}
