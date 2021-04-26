@@ -70,7 +70,7 @@ const RecomendendSlider = new Swiper('.rec-channel-slider', {
     },
     1900: {
       slidesPerView: 3,
-      spaceBetween:199,
+      spaceBetween:190,
     },
     2100: {
       slidesPerView: 6,
@@ -171,7 +171,7 @@ document.getElementById("button2").onclick = function(){
   this.style.backgroundColor ="gray";
   
 };
-const NobileRecomendendSlider = new Swiper('.mobile-rec-channel-slider', {
+const MobileRecomendendSlider = new Swiper('.mobile-rec-channel-slider', {
   // Optional parameters
 
   loop: true,
@@ -186,7 +186,7 @@ const NobileRecomendendSlider = new Swiper('.mobile-rec-channel-slider', {
     },
 } 
 });
-const VideoSlider = new Swiper('.mobile-video-channel-slider', {
+const MobileVideoSlider = new Swiper('.mobile-video-channel-slider', {
   // Optional parameters
 
   loop: true,

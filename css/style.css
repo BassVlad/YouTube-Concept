@@ -26,6 +26,10 @@ body{
     z-index: 99;
     
 }
+.input-group.is-open {
+    opacity: 1;
+    top: 20px;
+  }
 .menu-button{
     padding: 0;
     display: flex;
